@@ -1,0 +1,52 @@
+.App {
+  padding: 0, 1em;
+  text-align: center;
+  background-color: black;
+}
+
+.App-logo {
+  width: 100%;
+  max-width: 15em;
+  pointer-events: none;
+  border-radius: 0.25em;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+
+.App-body {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  gap: 1em;
+}
+
+.App-gallery {
+  /* flex-shrink: 0; */
+}
+
+.App-image {
+  max-width: 400px;
+  width: 100%;
+}
+
+.App-shop-button {
+  max-width: 15em;
+  width: 100%;
+}
+
+.App-ig-button {
+  max-width: 15em;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+
+a {
+  color: #61dafb;
+}
