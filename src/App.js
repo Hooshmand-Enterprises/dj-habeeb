@@ -3,6 +3,7 @@ import { Box, Button, Link } from '@mui/material'
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LibraryMusicIcon from '@mui/icons-material/LibraryMusic';
 import EmailIcon from '@mui/icons-material/Email';
+import CloudIcon from '@mui/icons-material/Cloud';
 import { useMemo } from 'react'
 import { useMediaQuery, ThemeProvider, createTheme, CssBaseline } from '@mui/material';
 
@@ -92,6 +93,30 @@ const App = () => {
                 target='_blank' 
                 rel='noopener noreferrer'
               >Instagram</Button>
+            </div>
+          </section>
+          <hr style={{ width: '90%', margin: '20px auto', border: '1px solid grey' }} />
+          <section style={{ textAlign: 'center', marginTop: '20px' }}>
+            <h2 style={{ color: 'white' }}>SoundCloud</h2>
+            <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', gap: '20px' }}>
+              <iframe 
+                title="SoundCloud" 
+                width="100%" 
+                height="300" 
+                scrolling="no" 
+                frameBorder="no" 
+                allow="autoplay" 
+                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1962120063&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+              ></iframe>
+              <Button 
+                variant='text' 
+                href='https://soundcloud.com/iamhabeeb' 
+                target='_blank' 
+                rel='noopener noreferrer'
+                startIcon={<CloudIcon />}
+              >
+                SoundCloud
+              </Button>
             </div>
           </section>
           <section style={{ textAlign: 'center', marginTop: '20px' }}>
