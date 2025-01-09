@@ -32,21 +32,25 @@ const App = () => {
         <header className="App-header">
           <Box
             sx={{
-              width: '100vw',
-              height: '96vh',
-              backgroundImage: 'url(/assets/controller.webp), url(/assets/controller.png)',
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
-              display: 'flex',
-              justifyContent: 'center',
               alignItems: 'center',
-              boxShadow: 'inset 0 0 0 1000px rgba(0,0,0,.5)'
+              backgroundImage: 'url(/assets/controller.webp), url(/assets/controller.png)',
+              backgroundPosition: 'center',
+              backgroundSize: 'cover',
+              boxShadow: 'inset 0 0 0 1000px rgba(0,0,0,.7)',
+              display: 'flex',
+              height: '96vh',
+              justifyContent: 'center',
+              width: '100vw'
             }}
           >
             <picture>
               <source srcSet="/assets/habeeb-logo-white.webp" type="image/webp" />
               <source srcSet="/assets/habeeb-logo-white.png" type="image/png" />
-              <img src="/assets/habeeb-logo-white.png" alt="Habeeb Logo" style={{ width: '1000px', maxWidth: '90%', height: 'auto' }} />
+              <img 
+                src="/assets/habeeb-logo-white.png" 
+                alt="Habeeb Logo" 
+                style={{ width: '1000px', maxWidth: '90%', height: 'auto', marginTop: '64px' }} 
+              />
             </picture>
           </Box>
         </header>
