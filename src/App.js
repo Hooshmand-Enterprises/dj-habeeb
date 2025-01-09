@@ -52,18 +52,20 @@ const App = () => {
         </header>
         <article className='App-body'>
           <section style={{ textAlign: 'center', marginTop: '20px' }}>
-            <h2 style={{ color: 'white' }}>Latest Mix</h2>
+            <h2 style={{ color: 'white' }}>Latest Set</h2>
             <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', gap: '20px' }}>
-              <iframe
-                title='Mixcloud Feed'
+              <iframe 
+                title="Latest Sets" 
                 width="100%" 
-                height="120" 
-                src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2Fhabeebmh%2F" 
-                frameBorder="0" 
-              ></iframe>
+                height="300" 
+                scrolling="no" 
+                frameBorder="no" 
+                allow="autoplay" 
+                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1941877247&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
+              </iframe>
               <Button 
                 variant='text'
-                href="https://www.mixcloud.com/habeebmh/" 
+                href="https://soundcloud.com/iamhabeeb/sets/my-sets?si=86c25d2d9cbd410599dc95be9dfb27bd&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 startIcon={<LibraryMusicIcon />}
@@ -97,10 +99,10 @@ const App = () => {
           </section>
           <hr style={{ width: '90%', margin: '20px auto', border: '1px solid grey' }} />
           <section style={{ textAlign: 'center', marginTop: '20px' }}>
-            <h2 style={{ color: 'white' }}>SoundCloud</h2>
+            <h2 style={{ color: 'white' }}>Latest release</h2>
             <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', gap: '20px' }}>
               <iframe 
-                title="SoundCloud" 
+                title="Latest Release" 
                 width="100%" 
                 height="300" 
                 scrolling="no" 
