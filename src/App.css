@@ -26,10 +26,6 @@
   gap: 1em;
 }
 
-.App-gallery {
-  /* flex-shrink: 0; */
-}
-
 .App-image {
   max-width: 400px;
   width: 100%;
