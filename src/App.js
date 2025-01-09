@@ -161,8 +161,8 @@ const Footer = () => (
       <Link href='https://www.instagram.com/habeebmh_/' target='_blank' rel='noopener noreferrer'>
         <InstagramIcon sx={{ fontSize: 40 }} />
       </Link>
-      <Link href='https://www.mixcloud.com/habeebmh/' target='_blank' rel='noopener noreferrer'>
-        <LibraryMusicIcon sx={{ fontSize: 40 }} />
+      <Link href='https://soundcloud.com/iamhabeeb' target='_blank' rel='noopener noreferrer'>
+        <CloudIcon sx={{ fontSize: 40 }} />
       </Link>
     </Box>
   </footer>
