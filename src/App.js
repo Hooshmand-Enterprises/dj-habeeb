@@ -94,7 +94,7 @@ const LatestRelease = () => (
       </iframe>
       <Button 
         variant='text' 
-        href='https://soundcloud.com/iamhabeeb' 
+        href='https://soundcloud.com/officialhabeebh' 
         target='_blank' 
         rel='noopener noreferrer'
         startIcon={<CloudIcon />}
@@ -111,7 +111,7 @@ const Instagram = () => (
     <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', gap: '20px' }}>
       <iframe 
         title='Instagram Feed'
-        src="https://www.instagram.com/habeebmh_/embed" 
+        src="https://www.instagram.com/officialhabeebh/embed" 
         width="100%" 
         height="500" 
         frameBorder="0" 
@@ -122,7 +122,7 @@ const Instagram = () => (
         variant='text' 
         startIcon={<InstagramIcon />} 
         className='App-ig-button' 
-        href='https://www.instagram.com/habeebmh_/' 
+        href='https://www.instagram.com/officialhabeebh/' 
         target='_blank' 
         rel='noopener noreferrer'
       >Instagram</Button>
